@@ -5,5 +5,5 @@ base = f"day_{sys.argv[1]}"
 _input = f"{base}/input"
 
 Path(_input).mkdir(parents=True)
-Path(f"{_input}/day_10").touch()
+Path(f"{_input}/{base}").touch()
 Path(f"{base}/{base}.py").touch()
